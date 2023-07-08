@@ -1,0 +1,81 @@
+
+<!--
+    Code written and edited by Aniket Kumar Singh 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>StopWatch</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="main-container">
+    <h1>Stopwatch</h1>
+    <div id="container">
+
+      <!-- Watch Container -->
+      <div id="watch-container">
+
+        <div id="hours" class="stopwatch-style">
+          <span class="digits" id="hr">00</span>
+          <span class="txt">Hr</span>
+
+        </div>
+
+        <div id="minutes" class="stopwatch-style">
+          <span class="digits" id="mins">00</span>
+          <span class="txt">Mins</span>
+        </div>
+
+        <div id="seconds" class="stopwatch-style">
+          <span class="digits" id="sec">00</span>
+          <span class="txt">Sec</span>
+        </div>
+
+        <div id="counter" class="stopwatch-style">
+          <span class="digits" id="count">00</span>
+          <span class="txt">--</span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Start Stop Reset Buttons -->
+
+    <div id="threebuttons">
+      <button id="start" class="btn green" onclick="start()">
+        <a>Start</a>
+      </button>
+      <button id="stop" class="btn red" onclick="stop()">
+        <a>Stop</a>
+      </button>
+      <button id="reset" class="btn blue" onclick="reset()">
+        <a>Reset</a>
+      </button>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+</body>
+
+</html>
